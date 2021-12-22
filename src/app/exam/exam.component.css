@@ -1,0 +1,14 @@
+.card{
+    text-align: left;
+    justify-self: center;
+    box-shadow: 3px;
+    background-color: bisque;
+    margin-top: 30px;
+}
+body{
+    background-color: RGB(247, 202, 201);
+    height: 700px;
+    width: auto;
+    padding-top: 30px;
+    overflow: hidden;
+}

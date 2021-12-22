@@ -1,0 +1,33 @@
+<html>
+    <body>
+        <div class="card col-6 offset-md-3 offset-lg-3 col-lg-6 col-md-6">
+            <div class="card-body">
+                <div class="col-12" *ngIf="questions">
+                    <h3>Question {{questions.id}} of 10</h3>
+                    <div>
+                        <p>{{questions.id}}. {{questions.name}}</p>
+                        <div class="form-check">
+                            <div *ngFor="let q of questions.options,let i = index">
+                                <input id="{{q.id}}" class="form-check-input" type="radio" name="opt" value={{i}}
+                                    [checked]="answers[questions.id] == q.id" (change)="onSelect( questions , q);" />
+                                <label class="font-weight-normal" [attr.for]="q.id">
+                                    {{q.name}}
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <button class="col-6 col-lg-3 col-md-3 btn btn-success" 
+                        (click)="changePage(-1)"*ngIf="currentPage>1">Previous</button>
+                        <button class="col-6 offset-md-6 offset-lg-6 col-lg-3 col-md-3 btn btn-success" 
+                        (click)="changePage(1)" *ngIf="currentPage<10">Next</button>
+                    </div>
+                    <div>
+                        <button class="col-6 offset-md-4 offset-lg-4 col-lg-3 col-md-3 btn btn-primary"
+                         *ngIf="currentPage>9" (click)="onSubmit()">Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

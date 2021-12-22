@@ -1,0 +1,392 @@
+{
+  "answers": [
+    {
+      "1": 2,
+      "2": 2,
+      "6": 3,
+      "id": 1
+    },
+    {
+      "1": 2,
+      "2": 3,
+      "3": 1,
+      "4": 1,
+      "5": 4,
+      "6": 3,
+      "7": 2,
+      "8": 2,
+      "9": 3,
+      "id": 2
+    },
+    {
+      "2": 3,
+      "5": 4,
+      "id": 3
+    },
+    {
+      "1": 2,
+      "2": 3,
+      "3": 1,
+      "4": 3,
+      "5": 4,
+      "6": 3,
+      "7": 2,
+      "8": 2,
+      "9": 3,
+      "10": 1,
+      "id": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "name": "Which HTML tag do we use to put the JavaScript?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 1,
+          "name": "<javascript>",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 1,
+          "name": "<script>",
+          "isAnswer": true
+        },
+        {
+          "id": 3,
+          "questionId": 1,
+          "name": "<js>",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 1,
+          "name": "None of the above",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "Which built-in method calls a function for each element in the array?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 2,
+          "name": "while()",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 2,
+          "name": "loop",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "questionId": 2,
+          "name": "forEach",
+          "isAnswer": true
+        },
+        {
+          "id": 4,
+          "questionId": 2,
+          "name": "takeUntil",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "What is the difference between let and var?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 3,
+          "name": "let has local scope",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "questionId": 3,
+          "name": "Both are same",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "questionId": 3,
+          "name": "var is new data type",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 3,
+          "name": "let consumes more cpu and ram",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "What is TypeScript?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 4,
+          "name": "A Language based on Javascript",
+          "isAnswer": true
+        },
+        {
+          "id": 2,
+          "questionId": 4,
+          "name": "script that runs on browser",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "questionId": 4,
+          "name": "A DataType Collection of Javascript",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 4,
+          "name": "None of the above",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "Which of the following is right syntex for arrow function?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 5,
+          "name": "a -> { return b; }",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 5,
+          "name": "x <= x + y;",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "questionId": 5,
+          "name": "x <- x + 5;",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 5,
+          "name": "x => x + 5;",
+          "isAnswer": true
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "Which new ES6 syntax helps with formatting output text - mixing variables with string literals, for example.",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 6,
+          "name": "Generator Functions",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 6,
+          "name": "Arrow Functions",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "questionId": 6,
+          "name": "Template Strings",
+          "isAnswer": true
+        },
+        {
+          "id": 4,
+          "questionId": 6,
+          "name": "Set Data Structure",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "Which ES6 feature helps in merging of a number of changed properties into an existing object?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 7,
+          "name": "Class syntex",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 7,
+          "name": "Object.assign()",
+          "isAnswer": true
+        },
+        {
+          "id": 3,
+          "questionId": 7,
+          "name": "map data structure",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 7,
+          "name": "Array.includes(obj);",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 8,
+      "name": "What is the difference between == and === ?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 8,
+          "name": "=== throws syntex error",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 8,
+          "name": "== checks values only, === checks types as well",
+          "isAnswer": true
+        },
+        {
+          "id": 3,
+          "questionId": 8,
+          "name": "=== is reference type check only",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 8,
+          "name": "Both are same",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 9,
+      "name": "Which of the following is NOT the method of an Array?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 9,
+          "name": ".map()",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 9,
+          "name": ".includes()",
+          "isAnswer": false
+        },
+        {
+          "id": 3,
+          "questionId": 9,
+          "name": ".subscribe()",
+          "isAnswer": true
+        },
+        {
+          "id": 4,
+          "questionId": 9,
+          "name": ".flatMap()",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    },
+    {
+      "id": 10,
+      "name": "What will be the output of the following code: ['a', 'b', 'c'].fill(7, 1, 2);?",
+      "options": [
+        {
+          "id": 1,
+          "questionId": 10,
+          "name": "['a', 7, 'c']",
+          "isAnswer": true
+        },
+        {
+          "id": 3,
+          "questionId": 10,
+          "name": "['a', 7, 7, 'b', 'c']",
+          "isAnswer": false
+        },
+        {
+          "id": 2,
+          "questionId": 10,
+          "name": "['a', 'b', 'c']",
+          "isAnswer": false
+        },
+        {
+          "id": 4,
+          "questionId": 10,
+          "name": "['7', 7, 'c']",
+          "isAnswer": false
+        }
+      ],
+      "questionType": {
+        "id": 1,
+        "name": "Multiple Choice",
+        "isActive": true
+      }
+    }
+  ]
+}
